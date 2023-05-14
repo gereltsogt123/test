@@ -3,9 +3,13 @@
   width: 600px;
   height: 600px;
 }
+.zurag1 {
+  display: flex;
+}
 .zurag1 img {
   width: 200px;
   height: 200px;
+  mix-blend-mode: multiply;
 }
 .zurag2 img {
   width: 200px;
@@ -15,11 +19,23 @@
   width: 200px;
   height: 200px;
 }
-.z1 {
-  cursor: pointer;
-  filter: grayscale(100%);
-  transition: filter 1s ease-in-out;
+
+.nud1 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
 }
-.z1:hover {
-  filter: none;
+.z2 {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s linear;
+}
+.nud1:hover .z2 {
+  left: -300px;
 }
