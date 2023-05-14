@@ -39,3 +39,168 @@
 .nud1:hover .z2 {
   left: -300px;
 }
+
+.nud2 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z4 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s linear;
+}
+.nud2:hover .z4 {
+  top: -300px;
+}
+
+.nud3 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z6 {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s linear;
+}
+.nud3:hover .z6 {
+  right: -300px;
+}
+.nud4 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z7 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s linear;
+}
+.nud4:hover .z7 {
+  left: -300px;
+}
+.zurag2 {
+  display: flex;
+}
+
+.nud5 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z8 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s ease-in-out;
+}
+.nud5:hover .z8 {
+  top: -600px;
+}
+.nud6 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z9 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s ease-in-out;
+}
+.nud6:hover .z9 {
+  right: -300px;
+}
+
+.nud7 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z10 {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s linear;
+}
+.nud7:hover .z10 {
+  left: -300px;
+}
+.zurag3 {
+  display: flex;
+}
+
+.nud8 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z11 {
+  position: absolute;
+  bottom: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s linear;
+}
+.nud8:hover .z11 {
+  bottom: -300px;
+}
+.zurag3 {
+  display: flex;
+}
+.nud9 {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  mix-blend-mode: multiply;
+}
+.z12 {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  mix-blend-mode: multiply;
+  transition: all 0.1s linear;
+}
+.nud9:hover .z12 {
+  right: -300px;
+}
