@@ -1,0 +1,25 @@
+.pageg {
+  display: flex;
+  width: 600px;
+  height: 600px;
+}
+.zurag1 img {
+  width: 200px;
+  height: 200px;
+}
+.zurag2 img {
+  width: 200px;
+  height: 200px;
+}
+.zurag3 img {
+  width: 200px;
+  height: 200px;
+}
+.z1 {
+  cursor: pointer;
+  filter: grayscale(100%);
+  transition: filter 1s ease-in-out;
+}
+.z1:hover {
+  filter: none;
+}
